@@ -1,9 +1,11 @@
 <script>
 import HelloVite from './components/HelloVite.vue'
+import photo from './components/immagine.vue'
 
 export default {
   components: {
-    HelloVite
+    HelloVite,
+    photo
   }
 }
 </script>
@@ -11,6 +13,7 @@ export default {
 <template>
   <h1>Hello Vite</h1>
   <HelloVite />
+  <photo />
 </template>
 
 <style scoped>
